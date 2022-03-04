@@ -13,7 +13,6 @@
            fetch="https://gitlab.com/MindTheGapps/"
            revision="sigma" />
 
-
   <remote name="legacy"
            fetch="https://github.com/droid-legacy"
            revision="12.1" />
@@ -29,6 +28,10 @@
            sync-c="true"
            sync-j="4"
            revision="refs/heads/12.1" />
+
+  <remote name="ng"
+           fetch="https://github.com/droid-ng"
+           revision="ng-v2" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
