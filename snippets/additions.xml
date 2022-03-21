@@ -24,6 +24,8 @@
 
   <!-- rice Launcher -->
   <project name="RiceDroid/android_packages_apps_Launcher3" remote="github" revision="twelve" />
+  <project path="external/colorkt" name="android_external_colorkt" remote="crdroid" />
+  <project path="external/themelib" name="android_external_themelib" remote="crdroid" />
 
   <!-- Face Unlock -->
   <project path="external/faceunlock" name="android_external_faceunlock" remote="crdroid-gitlab" />
