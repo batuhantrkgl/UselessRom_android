@@ -25,7 +25,7 @@
   <project path="packages/apps/Trebuchet" name="packages_apps_Trebuchet" groups="pdk-fs" remote="sakura-revived"/>
   <project path="packages/apps/OmniStyle" name="packages_apps_Omnistyle" groups="pdk-fs" remote="sakura"/>
   <project path="packages/apps/Updater" name="packages_apps_Updater" groups="pdk-fs" remote="sakura"/>
-  <project path="vendor/lineage" name="vendor_sakura" remote="sakura-revived" />
+  <project path="vendor/lineage" name="vendor_sakura" remote="sakura" />
   <project path="vendor/addons" name="vendor_addons" remote="sakura" />
   <project path="vendor/google/gapps" name="LordShen/vendor_google_gapps" remote="gitlab" revision="10" clone-depth="1" />
 
