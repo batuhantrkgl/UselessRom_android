@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- AOSP Projects -->
+
+  <project name="android_build" path="build/make" revision="sweets" groups="pdk" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />  
+    <linkfile src="tools" dest="build/tools" />  
+  </project>
+  <project name="android_build_soong" path="build/soong" revision="sweets" groups="pdk,tradefed" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <project name="android" path="android" remote="sweets" />
+  <project name="android_frameworks_base" path="frameworks/base" remote="sweets" groups="pdk-cw-fs,pdk-fs" />
+  <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="sweets" groups="pdk-fs" />
+  <project name="android_vendor_lineage" path="vendor/lineage" remote="sweets" />
+
+  <project name="android_packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="sweets" />
+  <project name="android_packages_apps_Updater" path="packages/apps/Updater" remote="sweets" />
+  <project name="android_packages_apps_Backgrounds" path="packages/apps/Backgrounds" remote="sweets" />
+
+</manifest>
