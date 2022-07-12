@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- MindTheGapps -->
+  <project name="vendor_gapps" path="vendor/gapps" remote="MindTheGapps" />
+</manifest>

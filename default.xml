@@ -9,6 +9,10 @@
            fetch="https://github.com/Project-Sweets"
            revision="snowcone" />
 
+  <remote name="MindTheGapps"
+           fetch="https://gitlab.com/MindTheGapps/"
+           revision="sigma" />
+
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
@@ -1055,6 +1059,7 @@
   <include name="snippets/lineage.xml" />
   <include name="snippets/pixel.xml" />
   <include name="snippets/sweets.xml" />
+  <include name="snippets/additions.xml" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 </manifest>
