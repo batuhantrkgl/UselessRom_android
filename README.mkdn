@@ -26,5 +26,6 @@ Credits:
 * [StatixOS](https://github.com/StatixOS)
 * [dotOS](https://github.com/DotOS)
 * [PixelExperience](https://github.com/PixelExperience)
+* [BlissROMs](https://github.com/BlissROMs)
 * [MintTheGapps](https://gitlab.com/MindTheGapps)
 * AOSP
