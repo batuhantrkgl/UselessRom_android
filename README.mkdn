@@ -1,14 +1,14 @@
-Project Sweets
+Project Dessert
 ===========
 
 Getting started
 ---------------
 
-To get started with Android/Project Sweets, you'll need to get familiar with [Source Control Tools](https://source.android.com/setup/develop).
+To get started with Android/Project Dessert, you'll need to get familiar with [Source Control Tools](https://source.android.com/setup/develop).
 
-To initialize your local repository using the sweets trees, use a command like this:
+To initialize your local repository using the dessert trees, use a command like this:
 ```
-repo init -u https://github.com/Project-Sweets/android.git -b snowcone
+repo init -u https://github.com/Project-Dessert/android.git -b snowcone
 ```
 Then to sync up:
 ```
@@ -27,5 +27,5 @@ Credits:
 * [dotOS](https://github.com/DotOS)
 * [PixelExperience](https://github.com/PixelExperience)
 * [BlissROMs](https://github.com/BlissROMs)
-* [MintTheGapps](https://gitlab.com/MindTheGapps)
+* [MindTheGapps](https://gitlab.com/MindTheGapps)
 * AOSP

@@ -5,8 +5,8 @@
            fetch="https://github.com"
            review="review.lineageos.org" />
 
-  <remote  name="sweets"
-           fetch="https://github.com/Project-Sweets"
+  <remote  name="dessert"
+           fetch="https://github.com/Project-Dessert"
            revision="snowcone" />
 
   <remote name="MindTheGapps"
@@ -1058,7 +1058,7 @@
 
   <include name="snippets/lineage.xml" />
   <include name="snippets/pixel.xml" />
-  <include name="snippets/sweets.xml" />
+  <include name="snippets/dessert.xml" />
   <include name="snippets/additions.xml" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
