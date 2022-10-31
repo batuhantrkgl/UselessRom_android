@@ -13,6 +13,11 @@
            fetch="https://gitlab.com/MindTheGapps/"
            revision="sigma" />
 
+
+  <remote name="legacy"
+           fetch="https://github.com/droid-legacy"
+           revision="12.1" />
+
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
