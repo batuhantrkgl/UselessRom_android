@@ -20,6 +20,7 @@ Credits:
 ---
 * [LineageOS](https://github.com/LineageOS)
 * [Project YAPP/YALP](https://github.com/Project-YAPP)
+* [Halogen OS](https://github.com/halogenOS)
 * [droid-ng](https://github.com/droid-ng)
 * [crDroid](https://github.com/crdroidandroid)
 * [riceDroid](https://github.com/riceDroid)
