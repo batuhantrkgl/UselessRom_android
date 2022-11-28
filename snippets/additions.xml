@@ -27,8 +27,4 @@
 
   <!-- MindTheGapps -->
   <project name="vendor_gapps" path="vendor/gapps" remote="MindTheGapps" />
-
-  <!-- Monet theming -->
-  <project name="ProtonAOSP/android_external_themelib" path="external/themelib" remote="github" revision="sc-qpr3" />
-  <project name="ProtonAOSP/android_external_colorkt" path="external/colorkt" remote="github" revision="sc-qpr3" />
 </manifest>
