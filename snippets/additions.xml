@@ -16,7 +16,6 @@
 
   <project name="LineageOS-UL/android_bionic" path="bionic" groups="pdk" />
   <project name="LineageOS-UL/android_external_jemalloc_new" path="external/jemalloc_new" />
-  <project name="LineageOS-UL/android_frameworks_native" path="frameworks/native" groups="pdk" />
   <project name="LineageOS-UL/android_system_core" path="system/core" groups="pdk" />
   <project name="LineageOS-UL/android_external_perfetto" path="external/perfetto" groups="pdk" />
 
