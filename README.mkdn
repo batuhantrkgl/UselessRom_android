@@ -19,6 +19,8 @@ Please see the [LineageOS Wiki](https://wiki.lineageos.org/) for building instru
 Credits:
 ---
 * [LineageOS](https://github.com/LineageOS)
+* [LineageOS-UL](https://github.com/LineageOS-UL)
+* [AICP](https://github.com/AICP)
 * [Project YAPP/YALP](https://github.com/Project-YAPP)
 * [Halogen OS](https://github.com/halogenOS)
 * [droid-ng](https://github.com/droid-ng)
