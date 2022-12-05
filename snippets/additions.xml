@@ -16,6 +16,7 @@
 
   <project name="LineageOS-UL/android_bionic" path="bionic" groups="pdk" />
   <project name="LineageOS-UL/android_external_jemalloc_new" path="external/jemalloc_new" />
+  <project name="LineageOS-UL/android_frameworks_native" path="frameworks/native" groups="pdk" />
 
   <!-- Mtk stuff -->
   <project name="StatiXOS/android_device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="github" revision="sc"/>
