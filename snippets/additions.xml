@@ -14,6 +14,8 @@
   <remove-project name="LineageOS/android_packages_modules_adb" />
   <project name="android_packages_modules_adb" path="packages/modules/adb" remote="legacy" />
 
+  <project name="LineageOS-UL/android_bionic" path="bionic" groups="pdk" />
+
   <!-- Mtk stuff -->
   <project name="StatiXOS/android_device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="github" revision="sc"/>
   <project name="droid-ng/android_packages_apps_MtkFMRadio" path="packages/apps/MtkFMRadio" remote="github" revision="ng-v2" />
