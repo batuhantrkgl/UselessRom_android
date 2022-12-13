@@ -31,4 +31,4 @@ Credits:
 * [PixelExperience](https://github.com/PixelExperience)
 * [BlissROMs](https://github.com/BlissROMs)
 * [MindTheGapps](https://gitlab.com/MindTheGapps)
-* AOSP
+* [AOSP](https://source.android.com/)
