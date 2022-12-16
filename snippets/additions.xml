@@ -2,7 +2,7 @@
 <manifest>
   <!-- Legacy -->
   <!-- dtbtool -->
-  <project name="android_system_tools_dtbtool" path="system/tools/dtbtool" remote="lineage" revision="lineage-18.1" />
+  <project name="LineageOS/android_system_tools_dtbtool" path="system/tools/dtbtool" remote="github" revision="lineage-18.1" />
 
   <!-- Patches -->
   <remove-project name="platform/system/netd" />
