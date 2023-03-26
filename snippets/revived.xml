@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remove-project name="LineageOS/android" />
+  <project name="LineageOS-Revived/android" path="android" />
+
+  <project name="LineageOS/android_build" />
+  <project name="LineageOS-Revived/android_build" path="build/make" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+
+  <remove-project name="platform/external/zlib" />
+  <project name="LineageOS-Revived/android_external_zlib" path="external/zlib" />
+
+  <remove-project name="LineageOS/android_frameworks_base" />
+  <project name="LineageOS-Revived/android_frameworks_base" path="frameworks/base" />
+  <remove-project name="LineageOS/android_frameworks_opt_net_wifi" />
+  <project name="LineageOS-Revived/android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" />
+
+  <remove-project name="LineageOS/android_packages_apps_PackageInstaller" />
+  <project name="LineageOS-Revived/android_packages_apps_PackageInstaller" path="packages/apps/PermissionController" />
+  <remove-project name="LineageOS/android_packages_apps_Settings" />
+  <project name="LineageOS-Revived/android_packages_apps_Settings" path="packages/apps/Settings" />
+
+  <remove-project name="LineageOS/android_system_bt" />
+  <project name="LineageOS-Revived/android_system_bt" path="system/bt" />
+  <remove-project name="LineageOS/android_system_core" />
+  <project name="LineageOS-Revived/android_system_core" path="system/core" />
+  <remove-project name="LineageOS/android_vendor_qcom_opensource_system_bt" />
+  <project name="LineageOS-Revived/android_vendor_qcom_opensource_system_bt" path="vendor/qcom/opensource/commonsys/system/bt" />
+</manifest>
