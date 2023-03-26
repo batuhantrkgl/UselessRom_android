@@ -35,6 +35,9 @@
   <remove-project name="LineageOS/android_packages_apps_PackageInstaller" />
   <project name="LineageOS-Revived/android_packages_apps_PackageInstaller" path="packages/apps/PermissionController" />
 
+  <remove-project name="platform/prebuilts/abi-dumps/vndk" />
+  <project name="LineageOS-Revived/android_prebuilts_abi-dumps_vndk" path="prebuilts/abi-dumps/vndk" clone-depth="1" />
+
   <remove-project name="LineageOS/android_system_bt" />
   <project name="LineageOS-Revived/android_system_bt" path="system/bt" />
   <remove-project name="LineageOS/android_system_core" />
