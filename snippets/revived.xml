@@ -44,4 +44,7 @@
   <project name="LineageOS-Revived/android_system_core" path="system/core" />
   <remove-project name="LineageOS/android_vendor_qcom_opensource_system_bt" />
   <project name="LineageOS-Revived/android_vendor_qcom_opensource_system_bt" path="vendor/qcom/opensource/commonsys/system/bt" />
+
+  <remove-project name="LineageOS/android_vendor_lineage" />
+  <project name="LineageOS-Revived/android_vendor_lineage" path="vendor/lineage" />
 </manifest>
