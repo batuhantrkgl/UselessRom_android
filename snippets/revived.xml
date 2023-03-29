@@ -39,6 +39,9 @@
   <remove-project name="LineageOS/android_packages_apps_PackageInstaller" />
   <project name="LineageOS-Revived/android_packages_apps_PackageInstaller" path="packages/apps/PermissionController" />
 
+  <remove-project name="LineageOS/android_packages_inputmethods_LatinIME" />
+  <project name="LineageOS-Revived/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" />
+
   <remove-project name="platform/prebuilts/abi-dumps/vndk" />
   <project name="LineageOS-Revived/android_prebuilts_abi-dumps_vndk" path="prebuilts/abi-dumps/vndk" clone-depth="1" />
 
