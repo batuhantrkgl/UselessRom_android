@@ -51,6 +51,12 @@
   <remove-project name="LineageOS/android_packages_apps_PackageInstaller" />
   <project name="LineageOS-Revived/android_packages_apps_PackageInstaller" path="packages/apps/PermissionController" />
 
+  <remove-project name="LineageOS/android_packages_providers_MediaProvider" />
+  <project name="LineageOS-Revived/android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" />
+
+  <remove-project name="LineageOS/android_packages_services_Telecomm" />
+  <project name="LineageOS-Revived/android_packages_services_Telecomm" path="packages/services/Telecomm" />
+
   <remove-project name="LineageOS/android_packages_inputmethods_LatinIME" />
   <project name="LineageOS-Revived/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" />
 
@@ -61,11 +67,19 @@
   <project name="LineageOS-Revived/android_system_bt" path="system/bt" />
   <remove-project name="LineageOS/android_system_core" />
   <project name="LineageOS-Revived/android_system_core" path="system/core" />
-  <remove-project name="LineageOS/android_vendor_qcom_opensource_system_bt" />
-  <project name="LineageOS-Revived/android_vendor_qcom_opensource_system_bt" path="vendor/qcom/opensource/commonsys/system/bt" />
+  <remove-project name="LineageOS/android_system_nfc" />
+  <project name="LineageOS-Revived/android_system_nfc" path="system/nfc" />
 
   <remove-project name="LineageOS/android_vendor_lineage" />
   <project name="LineageOS-Revived/android_vendor_lineage" path="vendor/lineage" />
   <project name="LineageOS-Revived/android_vendor_addons" path="vendor/addons" />
+
+  <remove-project name="LineageOS/android_vendor_nxp_opensource_halimpl" />
+  <project name="LineageOS-Revived/android_vendor_nxp_opensource_halimpl" path="vendor/nxp/opensource/pn5xx/halimpl" revision="lineage-17.1-pn5xx" />
+  <remove-project name="LineageOS/android_vendor_nxp_opensource_external_libnfc-nci" />
+  <project name="LineageOS-Revived/android_vendor_nxp_opensource_external_libnfc-nci" path="vendor/nxp/opensource/commonsys/external/libnfc-nci" />
+
   <project name="ThankYouMario/proprietary_vendor_qcom_common" path="vendor/qcom/common" revision="quartz" />
+  <remove-project name="LineageOS/android_vendor_qcom_opensource_system_bt" />
+  <project name="LineageOS-Revived/android_vendor_qcom_opensource_system_bt" path="vendor/qcom/opensource/commonsys/system/bt" />
 </manifest>
