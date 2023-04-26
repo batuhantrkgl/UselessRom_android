@@ -44,6 +44,8 @@
   <remove-project name="LineageOS/android_lineage-sdk" />
   <project name="LineageOS-Revived/android_lineage-sdk" path="lineage-sdk" />
 
+  <remove-project name="LineageOS/android_packages_apps_Jelly" />
+  <project name="LineageOS-Revived/android_packages_apps_Jelly" path="packages/apps/Jelly" />
   <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
   <project name="LineageOS-Revived/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" />
   <remove-project name="LineageOS/android_packages_apps_Settings" />
