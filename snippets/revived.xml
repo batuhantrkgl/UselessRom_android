@@ -57,4 +57,5 @@
   <remove-project name="LineageOS/android_vendor_lineage" />
   <project name="LineageOS-Revived/android_vendor_lineage" path="vendor/lineage" />
   <project name="LineageOS-Revived/android_vendor_addons" path="vendor/addons" />
+  <project name="ThankYouMario/proprietary_vendor_qcom_common" path="vendor/qcom/common" revision="quartz" />
 </manifest>
