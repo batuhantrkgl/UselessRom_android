@@ -88,6 +88,8 @@
   <remove-project name="LineageOS/android_system_timezone" />
   <project name="LineageOS-Revived/android_system_timezone" path="system/timezone" />
 
+  <remove-project name="LineageOS/android_packages_overlays_Lineage" />
+  <project name="LineageOS-Revived/android_packages_overlays_Lineage" path="packages/overlays/Lineage" />
   <remove-project name="LineageOS/android_vendor_lineage" />
   <project name="LineageOS-Revived/android_vendor_lineage" path="vendor/lineage" />
   <project name="LineageOS-Revived/android_vendor_addons" path="vendor/addons" />
