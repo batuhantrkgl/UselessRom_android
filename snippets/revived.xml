@@ -54,6 +54,8 @@
 
   <remove-project name="LineageOS/android_packages_apps_Bluetooth" />
   <project name="LineageOS-Revived/android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" />
+  <remove-project name="LineageOS/android_packages_apps_Dialer" />
+  <project name="LineageOS-Revived/android_packages_apps_Dialer" path="packages/apps/Dialer" />
   <remove-project name="LineageOS/android_packages_apps_Jelly" />
   <project name="LineageOS-Revived/android_packages_apps_Jelly" path="packages/apps/Jelly" />
   <remove-project name="LineageOS/android_packages_apps_LineageParts" />
