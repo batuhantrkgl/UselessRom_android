@@ -60,6 +60,8 @@
   <project name="LineageOS-Revived/android_packages_apps_Jelly" path="packages/apps/Jelly" />
   <remove-project name="LineageOS/android_packages_apps_LineageParts" />
   <project name="LineageOS-Revived/android_packages_apps_LineageParts" path="packages/apps/LineageParts" />
+  <remove-project name="LineageOS/android_packages_apps_Seedvault" />
+  <project name="LineageOS-Revived/android_packages_apps_Seedvault" path="packages/apps/Seedvault" />
   <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
   <project name="LineageOS-Revived/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" />
   <remove-project name="LineageOS/android_packages_apps_Settings" />
