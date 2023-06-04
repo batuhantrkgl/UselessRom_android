@@ -17,6 +17,9 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
+  <remove-project name="LineageOS/android_bootable_recovery" />
+  <project name="LineageOS-Revived/android_bootable_recovery" path="bootable/recovery" />
+
   <remove-project name="LineageOS/android_device_lineage_sepolicy" />
   <project name="LineageOS-Revived/android_device_lineage_sepolicy" path="device/lineage/sepolicy" />
 
