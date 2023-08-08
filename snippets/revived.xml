@@ -42,6 +42,8 @@
   <project name="LineageOS/android_external_chromium-webview_prebuilt_arm64" path="external/chromium-webview/prebuilt/arm64" revision="main" />
   <project name="LineageOS/android_external_chromium-webview_prebuilt_x86" path="external/chromium-webview/prebuilt/x86" revision="main" />
   <project name="LineageOS/android_external_chromium-webview_prebuilt_x86_64" path="external/chromium-webview/prebuilt/x86_64" revision="main" />
+  <remove-project name="LineageOS/android_external_freetype" />
+  <project name="LineageOS-Revived/android_external_freetype" path="external/freetype" />
   <remove-project name="LineageOS/android_external_icu" />
   <project name="LineageOS-Revived/android_external_icu" path="external/icu" />
   <remove-project name="platform/external/zlib" />
@@ -121,6 +123,9 @@
   <project name="LineageOS-Revived/android_system_nfc" path="system/nfc" />
   <remove-project name="LineageOS/android_system_timezone" />
   <project name="LineageOS-Revived/android_system_timezone" path="system/timezone" />
+
+  <remove-project name="platform/tools/apksig" />
+  <project name="LineageOS-Revived/android_tools_apksig" path="tools/apksig" />
 
   <remove-project name="LineageOS/android_packages_overlays_Lineage" />
   <project name="LineageOS-Revived/android_packages_overlays_Lineage" path="packages/overlays/Lineage" />
