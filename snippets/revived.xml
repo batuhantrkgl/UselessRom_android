@@ -50,6 +50,8 @@
   <project name="LineageOS-Revived/android_external_libvpx" path="external/libvpx" />
   <remove-project name="LineageOS/android_external_icu" />
   <project name="LineageOS-Revived/android_external_icu" path="external/icu" />
+  <remove-project name="platform/external/webp" />
+  <project name="LineageOS-Revived/android_external_webp" path="external/webp" />
   <remove-project name="platform/external/zlib" />
   <project name="LineageOS-Revived/android_external_zlib" path="external/zlib" />
 
