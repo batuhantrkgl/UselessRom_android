@@ -30,6 +30,8 @@
   <remove-project name="LineageOS/android_device_lineage_sepolicy" />
   <project name="LineageOS-Revived/android_device_lineage_sepolicy" path="device/lineage/sepolicy" />
 
+  <remove-project name="LineageOS/android_external_aac" />
+  <project name="LineageOS-Revived/android_external_aac" path="external/aac" />
   <remove-project name="platform/external/arm-optimized-routines" />
   <project name="crdroidandroid/android_external_arm-optimized-routines" path="external/arm-optimized-routines" revision="10.0" />
   <remove-project name="LineageOS/android_external_chromium-webview" />
@@ -105,6 +107,8 @@
 
   <remove-project name="LineageOS/android_packages_providers_MediaProvider" />
   <project name="LineageOS-Revived/android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" />
+  <remove-project name="LineageOS/android_packages_providers_TelephonyProvider" />
+  <project name="LineageOS-Revived/android_packages_providers_TelephonyProvider" path="packages/providers/TelephonyProvider" />
 
   <remove-project name="LineageOS/android_packages_services_Telecomm" />
   <project name="LineageOS-Revived/android_packages_services_Telecomm" path="packages/services/Telecomm" />
@@ -117,6 +121,8 @@
 
   <remove-project name="LineageOS/android_system_bt" />
   <project name="LineageOS-Revived/android_system_bt" path="system/bt" />
+  <remove-project name="platform/system/ca-certificates" />
+  <project name="LineageOS-Revived/android_system_ca-certificates" path="system/ca-certificates" />
   <remove-project name="LineageOS/android_system_core" />
   <project name="LineageOS-Revived/android_system_core" path="system/core" />
   <remove-project name="LineageOS/android_system_nfc" />
