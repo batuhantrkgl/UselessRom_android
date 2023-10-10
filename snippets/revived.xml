@@ -94,16 +94,18 @@
   <project name="LineageOS-Revived/android_packages_apps_LineageParts" path="packages/apps/LineageParts" />
   <remove-project name="LineageOS/android_packages_apps_Messaging" />
   <project name="LineageOS-Revived/android_packages_apps_Messaging" path="packages/apps/Messaging" />
+  <remove-project name="LineageOS/android_packages_apps_Nfc" />
+  <project name="LineageOS-Revived/android_packages_apps_Nfc" path="packages/apps/Nfc" />
   <remove-project name="LineageOS/android_packages_apps_Seedvault" />
   <project name="LineageOS-Revived/android_packages_apps_Seedvault" path="packages/apps/Seedvault" />
-  <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
-  <project name="LineageOS-Revived/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" />
   <remove-project name="LineageOS/android_packages_apps_Settings" />
   <project name="LineageOS-Revived/android_packages_apps_Settings" path="packages/apps/Settings" />
   <remove-project name="LineageOS/android_packages_apps_SetupWizard" />
   <project name="LineageOS-Revived/android_packages_apps_SetupWizard" path="packages/apps/SetupWizard" />
   <remove-project name="LineageOS/android_packages_apps_Traceur" />
   <project name="LineageOS-Revived/android_packages_apps_Traceur" path="packages/apps/Traceur" />
+  <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
+  <project name="LineageOS-Revived/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" />
   <remove-project name="LineageOS/android_packages_apps_TvSettings" />
   <project name="LineageOS-Revived/android_packages_apps_TvSettings" path="packages/apps/TvSettings" />
   <remove-project name="LineageOS/android_packages_apps_PackageInstaller" />
@@ -116,6 +118,8 @@
 
   <remove-project name="LineageOS/android_packages_services_Telecomm" />
   <project name="LineageOS-Revived/android_packages_services_Telecomm" path="packages/services/Telecomm" />
+  <remove-project name="LineageOS/android_packages_services_Telephony" />
+  <project name="LineageOS-Revived/android_packages_services_Telephony" path="packages/services/Telephony" />
 
   <remove-project name="LineageOS/android_packages_inputmethods_LatinIME" />
   <project name="LineageOS-Revived/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" />
@@ -143,10 +147,12 @@
   <project name="LineageOS-Revived/android_vendor_lineage" path="vendor/lineage" />
   <project name="LineageOS-Revived/android_vendor_addons" path="vendor/addons" />
 
-  <remove-project name="LineageOS/android_vendor_nxp_opensource_halimpl" />
-  <project name="LineageOS-Revived/android_vendor_nxp_opensource_halimpl" path="vendor/nxp/opensource/pn5xx/halimpl" revision="lineage-17.1-pn5xx" />
   <remove-project name="LineageOS/android_vendor_nxp_opensource_external_libnfc-nci" />
   <project name="LineageOS-Revived/android_vendor_nxp_opensource_external_libnfc-nci" path="vendor/nxp/opensource/commonsys/external/libnfc-nci" />
+  <remove-project name="LineageOS/android_vendor_nxp_opensource_halimpl" />
+  <project name="LineageOS-Revived/android_vendor_nxp_opensource_halimpl" path="vendor/nxp/opensource/pn5xx/halimpl" revision="lineage-17.1-pn5xx" />
+  <remove-project name="LineageOS/android_vendor_nxp_opensource_packages_apps_Nfc" />
+  <project name="LineageOS-Revived/android_vendor_nxp_opensource_packages_apps_Nfc" path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" />
 
   <project name="ThankYouMario/proprietary_vendor_qcom_common" path="vendor/qcom/common" revision="quartz" />
   <remove-project name="LineageOS/android_vendor_qcom_opensource_system_bt" />
