@@ -158,6 +158,7 @@
   <remove-project name="LineageOS/android_vendor_lineage" />
   <project name="LineageOS-Revived/android_vendor_lineage" path="vendor/lineage" />
   <project name="LineageOS-Revived/android_vendor_addons" path="vendor/addons" />
+  <project name="LineageOS-Revived/android_vendor_prebuilts" path="vendor/prebuilts" />
 
   <remove-project name="LineageOS/android_vendor_nxp_opensource_external_libnfc-nci" />
   <project name="LineageOS-Revived/android_vendor_nxp_opensource_external_libnfc-nci" path="vendor/nxp/opensource/commonsys/external/libnfc-nci" />
