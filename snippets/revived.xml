@@ -151,6 +151,8 @@
   <project name="LineageOS-Revived/android_system_ca-certificates" path="system/ca-certificates" />
   <remove-project name="LineageOS/android_system_core" />
   <project name="LineageOS-Revived/android_system_core" path="system/core" />
+  <remove-project name="LineageOS/android_system_libfmq" />
+  <project name="LineageOS-Revived/android_system_libmfq" path="system/libfmq" />
   <remove-project name="LineageOS/android_system_netd" />
   <project name="LineageOS-Revived/android_system_netd" path="system/netd" />
   <remove-project name="LineageOS/android_system_nfc" />
